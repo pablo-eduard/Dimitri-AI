@@ -1,0 +1,21 @@
+# Credenciais — NUNCA commitar
+.env
+
+# Dados gerados em runtime
+data/memoria_dialogos.json
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp

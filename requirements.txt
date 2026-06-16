@@ -1,0 +1,24 @@
+# ============================================================
+# Dimitri AI — Dependências
+# ============================================================
+
+# Interface com o Bluesky
+atproto>=0.0.55
+
+# Geração de texto por Cadeia de Markov (opcional, mantido para compatibilidade)
+markovify>=0.9.4
+
+# Processamento de linguagem natural (tokenização, stop words, stemming RSLP)
+nltk>=3.8.1
+
+# Busca semântica com TF-IDF e similaridade de cosseno
+scikit-learn>=1.3.0
+
+# Variáveis de ambiente (.env)
+python-dotenv>=1.0.0
+
+# Pesquisa web (RAG simples via DuckDuckGo — sem API key)
+duckduckgo-search>=6.1.0
+
+# Requisições HTTP para Qwen via Hugging Face API
+requests>=2.31.0
